@@ -15,13 +15,14 @@
 </head>
 <body>
 <div class="bg-white h-screen">
-    <div class="bg-bottom py-8 h-96" data-bg-override="full"
+    <div class="bg-bottom py-8 h-96 mb-8" data-bg-override="full"
          style="background-size: cover; background-repeat: repeat; background-image: url(https://s3-alpha-sig.figma.com/img/657c/f0b7/f6f8a4596f0bace49e5973c690995762?Expires=1655683200&Signature=WveglAt3TrjPCY06aHfzXan~YtA0awLOQQq4JVd2Kobq2KltLmxrWULq3B8IF2Txs074c~94g1bSoBD5uV1fhOauxJb6nktraUWrRz-9hDuwZcFm0wuNZGdXntUUpzFbozmKShsCmzMN57RGhgxe08Ys0v2VS~WpErwdSybpQYsmQpByUF4atAabFHjzxNYplGY9s9OluaeQJte7btJAXtyfWzQgSqdCK24UKZwUFZo~fcpBDh6XKIRIwbu8REYI13DLGE8Pfin9TZIS~p1EfQ9HOc62kn2e6DvmhvIxvKWBZVA0QdxD~lOuWFA7BxQ7MjimHN5~idAAVOg1QWMRSw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA)" >
 
-        <div class="absolute w-7/12 text-lg m-2 text-white text-bold top-40 ">
+        <div class="absolute w-80 text-lg m-2 text-white text-bold top-40 border-b">
+            <button type="button" class="absolute left-1 bottom-20 bg-red-400 w-20  rounded-full text-white text-xs text-align-midlle">Free delivery</button>
             <span>Cuotro Formaggie-</span>
             <span class="block"> Soup </span>
-            <div class="flex items-center ">
+            <div class="flex items-center">
                 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
                      xmlns="http://www.w3.org/2000/svg">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -39,15 +40,49 @@
 
 
             <div class=" absolute bg-red-100  h-20 top-80  w-full">
+                <div>
+                <div class="text-base text-red-400 pt-2 pl-4"> New! Try Pickup</div>
+                    <div class="tetx-sm pl-4 col-span-2 w-1/2 pb-2"> Pickup on your time. Your order is
+                        ready when you are.</div>
 
-            <button type="button" class="absolute bottom-6 right-4 bg-red-400 w-24 h-9 text-xs  rounded text-white  text-align-midlle">Order now</button>
+                </div>
+
+            <button type="button" class="absolute bottom-6 right-4 bg-red-400 w-24 h-9 text-xs  rounded text-white  text-align-midlle row-span-2">Order now</button>
 
 
 
         </div>
 
 
+
     </div>
+    <p class="text-xl text-black ml-4"> Featured Items</p>
+    <div class="bg-white w-full h-52 mx-4 my-8">
+        <div class="snap-x mx-auto nap-mandatory flex overflow-x-scroll ">
+
+            <div class="snap-center ...">
+
+
+                <img class="rounded w-48 h-32 pr-4"
+             src="./images/lukas-bato-1055980-unsplash.png">
+                <div class="col-span-2 pt-4 text-base"> Prosciutto Rucola</div>
+                <div class="col-span-2 pt-1 text-sm text-gray-400"> $ 12.88</div>
+
+
+            </div>
+
+        <div class="snap-center ...">
+            <img class="rounded w-48 h-32 pr-4"
+                 src="./images/pille-riin-priske-1122580-unsplash.png">
+            <div class="col-span-2 pt-4 text-base"> Uramaki Set</div>
+            <div class="col-span-2 pt-1 text-sm text-gray-400"> $ 9.88</div>
+        </div>
+
+        </div>
+    </div>
+
+
+
 
 </div>
 </body>
